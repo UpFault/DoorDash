@@ -1,0 +1,15 @@
+name: DoorDash
+version: '${project.version}'
+main: com.upfault.doordash.DoorDash
+api-version: 1.19
+prefix: DD
+authors: [ UpFault ]
+description: The Door Dash app but in minecraft.
+commands:
+  dash:
+    permission-message: You do not have the correct permissions for this command.
+    description: The main command for door dash.
+    permission: doordash.main
+    aliases:
+      - dd
+      - doordash

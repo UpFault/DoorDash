@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<!DOCTYPE xml>
+<project name="DoorDash" default="Build">
+
+    <xmlproperty file="pom.xml" prefix="pom" keeproot="false" />
+
+    <target name="Build">
+        <jar jarfile="D:\Projects\Development\plugins\${ant.project.name}.jar" basedir="./target/classes/" includes="**/*">
+        </jar>
+    </target>
+
+</project>

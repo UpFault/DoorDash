@@ -1,0 +1,10 @@
+# DATABASE
+
+database:
+  #if you use sqlite3(a locally hosted db) put the "playerData.db" file in the database folder in "CORE/database"
+  # NOTE: the database file must be called "playerData" spelled exactly like shown.
+  host: localhost # Database host
+  port: 3306 # Database port
+  database: db # Database name
+  user: username
+  password: password
